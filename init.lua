@@ -50,6 +50,14 @@ require('lazy').setup({
   --   requires = {'nvim-lua/plenary.nvim'},
   -- },
 
+  -- {
+  --   'vim-scripts/vim-spell',
+  --   config = function()
+  --     vim.opt.spell = true
+  --     vim.opt.spelllang = 'en_us pt_br'
+  --   end,
+  -- },
+
   -- nvim-tree file explorer
   {
     'kyazdani42/nvim-tree.lua',
@@ -641,3 +649,7 @@ cmp.setup {
 -- mazza setup
 require("mazza")
 
+
+-- -- Spell check settings
+-- vim.opt.spell = true
+-- vim.opt.spelllang = "en_us,pt_br"
